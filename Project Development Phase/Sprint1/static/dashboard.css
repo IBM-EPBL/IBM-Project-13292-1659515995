@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.body
+{
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+h4
+{
+  font-family: Pacifico, cursive;
+  font-family: "Times New Roman", Times, serif
+}
+
+.on-screen 
+{
+  width: 300px;
+  padding: 2% 0 0;
+  margin: auto;
+}
+
+.form 
+{
+  position: absolute;
+  /* right: 40px; */
+  /* z-index: 1; */
+  background: #00000063;
+  background: black;
+  /* max-width: 360px; */
+  color:white;
+  margin: -9px auto 80px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+  left: 465px;
+  top: 157px;
+  border-radius: 25px;
+  border: 2px solid white;
+  width: 513px;
+}
+
+.form button 
+{
+  border:0;
+  background:transparent;
+}
+
+.form img
+{
+  margin-left: 20px;
+  widthwidth: 100px;
+  height:100px;
+  border-radius: 15px;
+}
+
+.form button:hover,.form button:focus
+{
+  transform: translateY(-4px);
+}
+
+.form button:active
+{
+  transform: translateY(2px);
+}
+
+body 
+{
+  background:  #feadd0ba; 
+  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #7252b8, #bc6fc2);
+  background: linear-gradient(to left, #dd2476, #ff512f);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;     
+}
+

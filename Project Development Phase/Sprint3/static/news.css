@@ -1,0 +1,77 @@
+body{
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif
+}
+
+h2 {
+  /* font-family: "Crimson Text", serif; */
+  font-size: 18px;
+  font-family: emoji;
+}
+
+h3 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.form {
+  position: fixed;
+  top: 0px;
+  z-index: 0;
+  background: #00000063;
+  background: black;
+  width: 100%;
+  height: 114px;
+  padding: 0px;
+  text-align: center;
+  margin-left: -8px;
+}
+.cont {
+  width: 68%;
+  margin: auto;
+  margin-top: 50;
+  padding: 65px;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+  background: #00000063;
+  background: black;
+  color: white;
+}
+.form button {
+  font-family: "roboto", serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  outline: 0;
+  padding: 15px;
+  color: #ffffff;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: invert;
+  background: TRANSPARENT;
+  border: transparent;
+}
+
+.form button:hover,
+.form button:focus {
+  background: #ffffff17;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+  transform: translateY(-4px);
+  text-shadow: white;
+}
+
+.form button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.2);
+}
+.btncont {
+  margin-top: 0px;
+}
+body {
+  /* background: linear-gradient(to left, #7252b8, #bc6fc2); */
+  background: linear-gradient(to left, #dd2476, #ff512f);
+}
